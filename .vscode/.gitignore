@@ -1,0 +1,13 @@
+# Ne pas envoyer les dépendances
+node_modules/
+venv/
+__pycache__/
+
+# Ne pas envoyer les fichiers lourds de modèles PyTorch (> 100 MB)
+*.pth
+*.onnx
+
+# Fichiers temporaires système / VS Code
+.DS_Store
+.vscode/
+.env
